@@ -143,13 +143,13 @@
                 var rowset = '<tr class="rowset">';
                 rowset += '<td><img src="/img/delete.png" class="removeRowset" id="' + vehicle.vehicle_name + '" alt="Remove ' + vehicle.vehicle_name + '" title="Remove ' + vehicle.vehicle_name + '" /></td>';
                 rowset += '<td>' + vehicle.vehicle_name + '</td>';
-                rowset += '<td>' + vehicle.fuel_consumption + '</td>';
-                rowset += '<td>' + vehicle.fuel_tank_size + '</td>';
+                rowset += '<td>' + vehicle.fuel_consumption + ' l/100ks</td>';
+                rowset += '<td>' + vehicle.fuel_tank_size + 'L</td>';
                 rowset += '<td>' + vehicle.fuel_type + '</td>';
-                rowset += '<td>' + vehicle.fuel_price + '</td>';
-                rowset += '<td>' + vehicle.cost_to_fill + '</td>';
+                rowset += '<td>$' + vehicle.fuel_price + '</td>';
+                rowset += '<td>$' + vehicle.cost_to_fill + '</td>';
                 rowset += '<td>' + vehicle.ks_per_tank + '</td>';
-                rowset += '<td>' + vehicle.price_per_k + '</td>';
+                rowset += '<td>$' + vehicle.price_per_k + '</td>';
                 rowset += '</tr>';
                 $('#vehicles_rowset').append(rowset);
             })
