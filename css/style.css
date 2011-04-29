@@ -87,22 +87,26 @@ a:hover { color: #036; }
     width: 16px;
     text-indent: -9999px;
     overflow: hidden;
-    display: inline-block;
+    display: none;
 }
+
 
 th {
     padding-right: 10px;
 }
 
-.tooltip {
-    background-color: white;
-    border: 1px black solid;
+/*.tooltip {
     width: 200px;
     padding: 5px;
     position: absolute;
+    z-index: 100;
 }
+*/
 
 #main {
+}
+
+.content_box {
     width: 900px;
     border: 2px solid black;
     -moz-border-radius: 15px;
@@ -111,6 +115,8 @@ th {
     margin-left: auto;
     margin-right: auto;
     background-color: #FFF;
+    z-index: 0;
+    margin-top:10px;
 }
 
 #header {
@@ -118,24 +124,50 @@ th {
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-    font-size: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Cabin', arial, serif;
+}
+
+h2 {
+    font-size: 20px;
     font-weight: bold;
     font-family: 'Cabin', arial, serif;
 }
 
 #container {
-    padding-top: 30px;
+    padding-top: 40px;
     padding-left: auto;
     padding-right: auto;
 }
 
+.form_row > label {
+    width: 150px;
+    line-height: 20px; 
+    display: inline-block;
+}
 
+#vehicle_form {
+    margin-left: auto;
+    margin-right: auto;
+}
 
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right; 
+    font-family: 'Cabin', arial, serif;
+    font-size: 15px;
+    letter-spacing: -1px;
+    color: #444;
+    text-decoration: none;
+    width: 900px;
+}
 
-
-
-
-
+.vertmiddle { vertical-align: middle; }
 
 
 .ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
