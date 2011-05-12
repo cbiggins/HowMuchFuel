@@ -99,7 +99,7 @@
     </div>
     <footer>
         <iframe src="http://www.facebook.com/plugins/like.php?app_id=210006219031961&amp;href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FHow-Much-Fuel%2F220498091310348&amp;send=false&amp;layout=button_count&amp;width=50&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:50px; height:21px;" allowTransparency="true"></iframe>
-        <a href="http://twitter.com/share" class="twitter-share-button" data-text="How Much Fuel is a simple app to display the fuel costs of any vehicle." data-count="horizontal" data-via="cbiggins">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+        <a href="http://twitter.com/share" class="twitter-share-button" data-text="How Much Fuel is a simple app to display the fuel costs of any vehicle." data-count="none" data-via="cbiggins">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
         <a href="http://fliquidstudios.com"><img class="vertmiddle" src="/img/fliqy.png" border="0" alt="Fliquid Studios" title="Fliquid Studios" /></a>
     </footer>
   </div> <!-- eo #container -->
