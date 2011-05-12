@@ -171,11 +171,20 @@ footer {
     color: #444;
     text-decoration: none;
     width: 900px;
+/*    height: 30px;*/
 }
 
+/*footer iframe {
+  padding-top: 12px;
+}
 
+footer img {
+  padding-bottom: 5px;
+}
 
-
+footer script {
+  padding-top: 5px;
+}*/
 
 .vertmiddle { vertical-align: middle; }
 

@@ -98,7 +98,8 @@
 
     </div>
     <footer>
-        <script type="text/javascript" src="http://w.sharethis.com/button/sharethis.js#publisher=8456083e-e558-42a8-aec9-f6ba7cc88244&amp;type=website&amp;post_services=facebook%2Cdigg%2Cdelicious%2Cybuzz%2Ctwitter%2Cstumbleupon%2Creddit%2Ctechnorati%2Cmixx%2Cblogger%2Ctypepad%2Cwordpress%2Cgoogle_bmarks%2Cwindows_live%2Cmyspace%2Cfark%2Cbus_exchange%2Cpropeller%2Cnewsvine%2Clinkedin"></script> 
+        <iframe src="http://www.facebook.com/plugins/like.php?app_id=210006219031961&amp;href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FHow-Much-Fuel%2F220498091310348&amp;send=false&amp;layout=button_count&amp;width=50&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:50px; height:21px;" allowTransparency="true"></iframe>
+        <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="cbiggins">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
         <a href="http://fliquidstudios.com"><img class="vertmiddle" src="/img/fliqy.png" border="0" alt="Fliquid Studios" title="Fliquid Studios" /></a>
     </footer>
   </div> <!-- eo #container -->
