@@ -111,12 +111,14 @@ th {
     border: 2px solid black;
     -moz-border-radius: 15px;
     border-radius: 15px;
-    padding: 5px;
+    padding: 20px;
     margin-left: auto;
     margin-right: auto;
     background-color: #FFF;
     z-index: 0;
     margin-top:10px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px #404040;
 }
 
 #header {
@@ -130,12 +132,16 @@ h1 {
     font-size: 50px;
     font-weight: bold;
     font-family: 'Cabin', arial, serif;
+    text-shadow:1px 1px 1px #ffffff;
 }
 
 h2 {
     font-size: 20px;
     font-weight: bold;
     font-family: 'Cabin', arial, serif;
+    text-shadow: 1px 1px 1px #000000, -20px;
+    margin: 5px 20px;
+    padding: 5px 20px;
 }
 
 #container {
@@ -167,6 +173,10 @@ footer {
     width: 900px;
 }
 
+
+
+
+
 .vertmiddle { vertical-align: middle; }
 
 
@@ -181,7 +191,8 @@ footer {
 .clearfix { zoom: 1; }
 
 
-@media all and (orientation:portrait) {
+
+media all and (orientation:portrait) {
 
 }
 

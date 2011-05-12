@@ -49,6 +49,8 @@
     
     <div id="main" role="main" class="content_box">
         <div id="vehicles">
+            <?php
+                if (isset($_SESSION['fuel_prices'])) { ?>
             <h2>Your Vehicles</h2>
             <table id="vehicles_rowset">
                 <tr>
@@ -62,8 +64,7 @@
                     <th>K's Per Tank<span class="help">How many kilometres per tank (This will be updated by the calculator)</span></th>
                     <th>Price Per K<span class="help">The average price per kilometre (This will be updated by the calculator)</span></th>
                 </tr>
-            <?php
-                if (isset($_SESSION['fuel_prices'])) {
+                <?php
                     foreach($_SESSION['fuel_prices'] as $k => $vehicle) {
                         $rowset = '<tr class="rowset">';
                         $rowset .= '<td><img src="/img/delete.png" class="removeRowset" id="' . $vehicle['vehicle_name'] . '" alt="Remove ' . $vehicle['vehicle_name'] . '" title="Remove ' . $vehicle['vehicle_name'] . '" /></td>';
@@ -71,7 +72,7 @@
                         $rowset .= '<td>' . $vehicle['fuel_consumption'] . ' l/100ks</td>';
                         $rowset .= '<td>' . $vehicle['fuel_tank_size'] . 'L</td>';
                         $rowset .= '<td>' . $vehicle['fuel_type'] . '</td>';
-                        $rowset .= '<td>$' . $vehicle['fuel_price'] . '</td>';
+                        $rowset .= '<td>' . $vehicle['fuel_price'] . 'c</td>';
                         $rowset .= '<td>$' . $vehicle['cost_to_fill'] . '</td>';
                         $rowset .= '<td>' . $vehicle['ks_per_tank'] . '</td>';
                         $rowset .= '<td>$' . $vehicle['price_per_k'] . '</td>';
@@ -84,6 +85,7 @@
         </div>
 
         <div id="about">
+            <h2>About</h2>
             <span id="description">This app is simply to help you compare the fuel costs of one or more cars. Simply fill the form out and add the vehicle to see the cost.</span>
             <span id="help">
                 Tips:
