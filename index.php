@@ -9,12 +9,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
   <title></title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="How Much Fuel is a simple app to display the fuel costs of any vehicle. By making simple calculations you can see how much each kilometre is costing you. Use it to compare the running costs of that new car">
+  <meta name="author" content="Fliquid Studios">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="image_src" type="image/jpeg" href="http://www.howmuchfuel.com/img/icon-facebook.gif" />
   <link href='http://fonts.googleapis.com/css?family=Cabin:regular,bolditalic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/style.css?v=2">
   <script src="js/libs/modernizr-1.7.min.js"></script>
