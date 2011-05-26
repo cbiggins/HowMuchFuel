@@ -27,7 +27,7 @@
   <div id="container">
     <header>
         <div id="header">
-            <h1>How Much Fuel?</h1>
+            <img src="/img/logo.png" style="float: left; padding-right: 10px; "/><h1>How Much Fuel?</h1>
         </div>
     </header>
     <div class="content_box">
@@ -86,14 +86,15 @@
         </div>
 
         <div id="about">
-            <h2>About</h2>
-            <span id="description">This app is simply to help you compare the fuel costs of one or more cars. Simply fill the form out and add the vehicle to see the cost.</span>
-            <span id="help">
+            <h2>About / Help</h2>
+            <span id="description"><p>This app is simply to help you compare the fuel costs of one or more cars. Simply fill the form out and add the vehicle to see the cost.</p></span>
+            <span id="help"><p>
                 Tips:
                 <ul>
                     <li>If you don't know your cars consumption or fuel tank size, you can look up your car <a href="http://www.carbuddy.com.au/car/values/specification/default.aspx" target="_blank">here</a>.</li>
                     <li>To see todays average fuel prices, check <a href="http://www.mynrma.com.au/motoring/car-care/fuel-prices.htm" target="_blank">here</a>.</li>
                 </ul>
+                </p></span>
         </div>
 
     </div>
